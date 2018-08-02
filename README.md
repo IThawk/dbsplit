@@ -2,6 +2,7 @@
 
 ## 什么是dbsplit？
 
+查看更多框架设计：《可伸缩服务架构：框架与中间件》
 
 Dbsplit扩展了Spring的JdbcTemplate, 在JdbcTemplate上增加了分库分表，读写分离和失效转移等功能，并与Spring JDBC保持相同的风格，简单实用，避免外部依赖，不需要类似cobar的代理服务器，堪称可伸缩的Spring JdbcTemplate。
 
